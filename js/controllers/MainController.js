@@ -1,7 +1,8 @@
-app.controller('MainController', ['$scope', function($scope) { 
+app.controller('MainController', ['$scope', function($scope) {
+    console.log("Controller executed!"); 
     $scope.title = 'Top Sellers in Books to Buy';
     $scope.promo = 'You dont want to miss these deals'; 
-    $scope.product = [ 
+    $scope.products = [ 
         { 
           name: 'The Book of Trees', 
           price: 19, 
